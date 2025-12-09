@@ -18,4 +18,12 @@ go run .
 # Or "go build ." if you want a Static binary directly
 ```
 
-If you want to use a Custom list save it in the project root ( aka in . of the folder) as words.txt <br> A config System is probably in sight when i find Time and Motivation. 
+## How can i Customize my experience?
+> Just Change the Default config `config.toml` which is in the Project root.
+
+```toml
+Wordlist = "./words.txt"
+User_Agent = "Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0"
+Ratelimit = 120
+RequestDelay = 1
+```
