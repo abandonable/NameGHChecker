@@ -14,7 +14,7 @@ cd ./NameGHChecker
 wget https://raw.githubusercontent.com/dwyl/english-words/refs/heads/master/words_alpha.txt -o ./words.txt 
 # If you like to get the list i used ^^^^^^^
 
-git run . 
+go run . 
 # Or "go build ." if you want a Static binary directly
 ```
 
